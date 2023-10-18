@@ -1,0 +1,29 @@
+.header{
+    display: flex;
+    justify-content: flex-end;
+    gap: 50px;    
+}
+
+.header-right{
+    display: flex;
+    justify-content: space-around;
+    width: 150px;
+    /* border: 1px solid black; */
+    color: gray;
+}
+
+.searchBar{
+    position: relative;
+    background-color: whitesmoke;
+    border: none;
+    width: 600px;
+    padding: 5px  10px;
+    border-radius: 15px;
+}
+
+.searchIcon{
+    position: absolute;
+    margin-left: -35px;
+    margin-top: 6px;
+    
+}
